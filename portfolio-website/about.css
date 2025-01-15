@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: linear-gradient(rgb(28, 39, 67),black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.social{
+    background-color: rgb(84, 84, 84);
+    height: 30%;
+    width: 3.7%;
+    border-radius: 5px;
+}
+.about{
+    height: 50%;
+    width: 70%;
+    margin-right: 15%;
+    color: white;
+}
+.p-1{
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.p-2{
+    margin-top: 40px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.box-1{
+    height: 25%;
+    background-image: url(GitHub_logo.png);
+    background-size: cover;
+}
+.box-2{
+    height: 25%;
+    background-image: url(linkedin-logo-linkedin-icon-transparent-free-png.webp);
+    background-size: cover;
+}
+.box-3{
+    height: 25%;
+    background-image: url(fc36db79d525fb040fbad9c8039c8dca.png);
+    background-size: cover;
+}
+.box-4{
+    background-image: url(Profile-PNG-Photo.png);
+    background-size: cover;
+    height: 25%;
+}

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: linear-gradient(black,rgb(28, 39, 67));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.social{
+    background-color: rgb(84, 84, 84);
+    height: 30%;
+    width: 3.7%;
+    border-radius: 5px;
+}
+.box-1{
+    height: 25%;
+    background-image: url(GitHub_logo.png);
+    background-size: cover;
+}
+.box-2{
+    height: 25%;
+    background-image: url(linkedin-logo-linkedin-icon-transparent-free-png.webp);
+    background-size: cover;
+}
+.box-3{
+    height: 25%;
+    background-image: url(fc36db79d525fb040fbad9c8039c8dca.png);
+    background-size: cover;
+}
+.box-4{
+    background-image: url(Profile-PNG-Photo.png);
+    background-size: cover;
+    height: 25%;
+}
+.main{
+    border: 1px solid white;
+    height: 100vh;
+    width: 70dvw;
+    margin-right: 15%;
+}
+.main-1{
+   color: white; 
+}
+.main-2{
+    border: 1px solid white;
+    display: flex;
+    height: 93.3%;
+    flex-direction: column;
+}
+.main-box-1{
+    border: solid 1px white;
+    height: 50%;
+    display: flex;
+}
+.main-box-2{
+    border: solid 1px white;
+    height: 50%;
+    display: flex;
+}
+.info-1-1{
+    border: 1px solid white;
+    width: 25%;
+}

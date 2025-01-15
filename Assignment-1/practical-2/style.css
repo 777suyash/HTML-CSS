@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: #b8dbeb;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ecb1aa;
+    height:  10%;
+    align-items: center;
+}
+h1{
+    margin-left: 100px;
+}
+.nav-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-name{
+    margin-right: 100px;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+.img-box{
+    height: 100%;
+    width: 80%;
+    background-color: rgb(182, 174, 174);
+}
+.disc-box{
+    font-size: large;
+    text-align: center;
+    line-height: 50px;
+}

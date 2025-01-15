@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color: #ffcfd7;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.row{
+    align-content: center;
+    justify-content: space-evenly;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin-top: 80px;
+}

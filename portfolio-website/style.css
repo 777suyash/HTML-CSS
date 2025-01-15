@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient( black, rgb(54, 54, 66));
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-1{
+    margin-left: 2%;
+}
+.navbar-2{
+    color: rgb(134, 133, 133);
+    margin-right: 2%;
+    display: flex;
+    gap: 30px;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.info{
+    height: 60%;
+    width: 70%;
+    margin: auto;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-around;
+}
+.info-1{
+    width: 35%;
+    color: white;
+    margin-top: 6%;
+}
+.info1-1{
+    height: 10%;
+    width: 30%;
+    border-radius: 10%;
+    margin-left: 2%;
+    margin-top: 5%;
+    background-color: rgb(61, 120, 222);
+}
+.info-2{
+    width: 40%;
+    border-radius: 5%;
+    background-image: url(Profile-PNG-Photo.png);
+    background-size: cover;
+    background-color: white;
+}
