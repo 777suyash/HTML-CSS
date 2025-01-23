@@ -5,6 +5,7 @@
 .first-container{
     height: 100vh;
     width: 100vw;
+    box-sizing: border-box;
 }
 .navbar{
     height: 10%;
@@ -106,6 +107,7 @@
 .second-container{
     height: 60vh;
     width: 100vw;
+    box-sizing: border-box;
 }
 .second-1{
     height: 50%;
@@ -196,20 +198,24 @@
     border: 0 ;
     color: white;
 }
+/* third section css */
 .third{
     height: 50vh;
     width: 100vw;
+    box-sizing: border-box;
 }
 .third-H{
     width: 10%;
     font-size: 24px;
     font-weight: 600;
     margin: auto;
+    margin-top: 40px;
 }
 .third-M{
     display: flex;
     width: 80%;
     margin: auto;
+    margin-top: 40px;
 }
 .third-M-1{
     border:  1px solid rgba(50, 71, 198, 1);
@@ -240,4 +246,142 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+/* Fourth section css */
+.fourth-container{
+     height: 50vh;
+    width: 100vw;
+    background-image: url(image/Abstract-wave-png-17\ 1.png);
+    box-sizing: border-box;
+}
+.fourth-H{
+    margin: auto;
+    width: 10%;
+    font-size: 26px;
+    font-weight: 600;
+}
+.fourth-M{
+    width: 80%;
+    margin: auto;
+}
+.fourth-1{
+    border: 1px solid rgba(50, 71, 198, 1);
+    height: 182px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.fourth-2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.fourth-3{
+    border: 1px solid rgba(50, 71, 198, 1);
+    margin-top: 30px;
+}
+.fourth-4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 50px;  
+}
+.fourth-5{
+    border: 1px solid rgba(50, 71, 198, 1);
+    margin-top: 30px;
+}
+/* footer section */
+.last-container{
+    height: 50vh;
+    width: 100vw;
+    background-color: rgba(50, 71, 198, 1);
+    box-sizing: border-box;
+}
+.last-M{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.last-1{
+}
+.last-1-1{
+    color: white;
+    margin-top: 100px;
+}
+.last-1-2{
+    border: 1px solid rgba(255, 252, 49, 1);
+    display: flex;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 84px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 500px;
+    padding-right: 15px;
+    padding-left: 20px;
+}
+.last-1-3{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.last-img{
+    background-color: white;
+    height: 29px;
+    width: 29px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.last-2{
+    width: 35%;
+}
+.last-2-1{
+    display: flex;
+    justify-content: space-between;
+}
+.last-2-1-1{
+    color: white;
+    font-size: 14px;
+    margin-top: 70px;
+    line-height: 30px;
+}
+.last-2-1-2{
+    color: white;
+    font-size: 14px;
+    margin-top: 70px;
+    line-height: 30px;
+}
+.last-3{
+    background-color: white;
+    border-radius: 10px;
+    height: 75px;
+    width: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.last-3-1{
+    border: 0px solid black;
+    color: rgba(150, 150, 150, 1);
+    font-size: 14px;
+    margin-left: 20px;
+}
+.last-3-2{
+    background-color: rgba(229, 79, 109, 1);
+    border-radius: 8px;
+    height: 40px;
+    width: 140px;
+    border: 0px wheat;
+    color: white;
+    margin-right: 30px;
 }

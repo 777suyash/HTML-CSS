@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first-container{
+    height: 200vh;
+    width: 100vw;
+}
+.first-1{
+    border: 1px solid black;
+    background: linear-gradient(to right, white,blue);
+    height: 100%;
+    width: 100%;
+}
